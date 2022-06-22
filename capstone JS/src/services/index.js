@@ -1,12 +1,14 @@
-function Services(){{
+function Services() {
+  {
     this.arr = [];
 
-    this.getListProductsApi = function(){{
+    this.getListProductsApi = function () {
+      {
         return axios({
-            url: "https://628b9962667aea3a3e32d1df.mockapi.io/API/capstoneJS",
-            method: "GET",
+          url: "https://6290b9f7665ea71fe13967e3.mockapi.io/capstoneJs",
+          method: "GET",
         });
-
-    }}
-          
-}}
+      }
+    };
+  }
+}
